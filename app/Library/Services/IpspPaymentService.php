@@ -11,6 +11,7 @@ class IpspPaymentService implements PaymentServiceInterface
     public function __construct(Api $api)
     {
         $this->api = $api;
+        $test = "flag{Th3_cl4ssic_OSINT_and_a_b0ttle_0f_w4t3r}"
     }
     
     public function checkStatus(array $requestData)
